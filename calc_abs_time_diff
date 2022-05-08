@@ -1,6 +1,6 @@
 #!/bin/python3
-
 import math
+
 
 def is_leap_year(year):
     """The year must be evenly divisible by 4;
@@ -71,10 +71,7 @@ def time_delta(t1, t2):
 
 
 if __name__ == '__main__':
-    t = int(input())
-
-    for t_itr in range(t):
-        t1 = input()
-        t2 = input()
-        delta = time_delta(t1, t2)
-        print("Absolute time different in seconds:{}".format(delta))
+    t1 = input()
+    t2 = input()
+    delta = time_delta(t1, t2)
+    print("Absolute time different in seconds:{}".format(delta))
