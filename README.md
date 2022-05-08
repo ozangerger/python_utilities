@@ -1,7 +1,7 @@
 # python_utilities
 useful python code will be located here
 
-calc_abs_time_diff
+**calc_abs_time_diff**
 
 This function will print the absolute difference in seconds.
 
